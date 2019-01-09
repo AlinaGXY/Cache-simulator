@@ -1,6 +1,26 @@
 # Cache-simulator
 Project 4 of Duke course ECE 550
 
+# Arguments List
+test file name
+number of cache: 1 or 2
+write allocate: 1 or 0
+RR or LRU: 1 or 0
+L1 I unified or split: 1 or 0
+L1 I capacity
+L1 I linesize
+L1 I lines in one set: 0 means fully associative
+L1 D capacity
+L1 D linesize
+L1 D lines in one set: 0 means fully associative
+L2 unified or split: 1 or 0
+L2 I capacity
+L2 I linesize
+L2 I lines in one set: 0 means fully associative
+L2 D capacity
+L2 D linesize
+L2 D lines in one set: 0 means fully associative
+
 # Input sample of demo cases
 1. Unified L1 and No L2:
 L1 is direct mapped, block size of 32 bytes, capacity of 8192 bytes, DO NOT allocate on write miss.
